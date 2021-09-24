@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "file": "",
+    "link": "",
+    "text": "Andrew Weymouth"
+  },
+  "text": {
+    "more": "Visualization of the 8391 digitized items in the Richards Collection up to this point. The blue nodes are the D collection, orange nodes the A collection and green nodes are every other designation. The different globes are decades from the 1920s to 1970s and nodes within these decades are grouped by corresponding dates and address information (if provided in the original entries). \n\nThis visualization was created to help identify gaps in the collection which I can focus on digitizing. For example, there appears to be a relatively small representation of the D and Other collection in the 20s, which are more loosely pooled in the center of the visualization. The visualization can also be useful as an easy to reference guide for distinguishing the A/D records, as they are filed by item number rather than chronologically. ",
+    "intro": "Richards Collection Digitized Items Visualization 9/24",
+    "title": "Richards Collection Digitized Items Visualization 9/24"
+  },
+  "legend": {
+    "edgeLabel": "Edge Description",
+    "colorLabel": "Blue\u003d D, Orange\u003dA, Green\u003d Other",
+    "nodeLabel": "Node Description"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": "Modularity Class",
+    "hoverBehavior": "dim"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": true,
+    "imageAttribute": "name"
+  },
+  "sigma": {
+    "drawingProperties": {
+      "defaultEdgeType": "curve",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd",
+      "activeFontStyle": "bold",
+      "defaultLabelColor": "#000",
+      "labelThreshold": 10,
+      "defaultLabelHoverColor": "#fff",
+      "fontStyle": "bold",
+      "hoverFontStyle": "bold",
+      "defaultLabelSize": 14
+    },
+    "graphProperties": {
+      "maxEdgeSize": 0.5,
+      "minEdgeSize": 0.2,
+      "minNodeSize": 1,
+      "maxNodeSize": 7
+    },
+    "mouseProperties": {
+      "maxRatio": 20,
+      "minRatio": 0.75
+    }
+  }
+}
